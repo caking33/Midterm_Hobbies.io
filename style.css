@@ -1,0 +1,57 @@
+/* My Custom CSS */
+
+.nav-tabs .nav-item .nav-link {
+    font-family: Creepster;
+    font-size: 40px;
+    color: white;
+    background-image: url(Images/background.png);
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+    border: none;
+    color: #DD1B1B;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    font-family: Creepster;
+    font-size: 40px;
+    color:#DD1B1B;
+    background-color: #0F558F;
+    background-image: url(Images/static.png);
+
+}
+
+.tab-content {
+}
+
+.tab-content .tab-pane {
+  background-color: #FFF;
+  color: black;
+}
+
+
+.card-title {
+    font-family: Creepster;
+    font-size: 40px;
+    
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-text {
+    font-family: Archivo;
+    padding: 10px;
+}
+
+
+.blood {
+    z-index: 1;
+    position: absolute;
+    top: px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-bottom: 70px;
+}
